@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np 
 from flask import Flask, request, jsonify
 
-model_path = "../model/model_health_impact_88_0.3223.keras"
+model_path = "./model/model_health_impact_88_0.3223.keras"
 scaler = StandardScaler()
 model=load_model(model_path)
 
